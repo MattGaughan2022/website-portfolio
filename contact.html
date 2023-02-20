@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matt Gaughan - Portfolio</title>
+    <link rel="icon" href="img/home.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header"> <!-- flexbox parent container class-->
+        <img src="img/logoMattGaughan.png" class="page-header__item site-logo" alt="personal logo">
+
+        <nav class="page-header__item">
+            <ul role="menubar" class="nav-list">
+                <li>
+                    <button onclick="location.href='index.html'" type="button__home"
+                        class="nav-list__item">Home</button>
+                </li>
+                <li>
+                    <button onclick="location.href='about.html'" type="button__aboutMe" class="nav-list__item">About
+                        Me</button>
+                </li>
+                <li>
+                    <button onclick="location.href='contact.html'" type="button__contact"
+                        class="nav-list__item nav-list__item--active">Contact</button>
+                </li>
+                <li>
+                    <button onclick="location.href='work.html'" type="button__aboutMe"
+                        class="nav-list__item">Work</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact Matt Gaughan</h1>
+
+
+    <form action="" method="post" id="contact-form" class="contact-form">
+        <label class="" standard-label for="contact-email">E-mail: *</label><br>
+        <input type="email" id="contact-email" required>
+        <br>
+        <label class="" standard-label for="contact-telephone">Telephone: *</label><br>
+        <input type="tel" id="contact-telephone" required>
+        <br>
+        <label class="" standard-label for="contact-message">Message: </label><br>
+        <label for="my-input"></label>
+        <textarea id="my-input" maxlength="240"></textarea>
+        <br>
+        <input type="submit" value="Send message" required>
+    </form>
+
+    <div class="profile">
+        <br>
+        My current employment:<br>
+        <br>
+        Merrigan & Merrigan Law<br>
+        10 Forbes Rd., Suite 110W<br>
+        Braintree, MA 02184<br>
+        Phone: +1 (781) 356-2500<br>
+        www.MerriganandMerrigan.com<br>
+        <br>
+        <a href="mailto:mattgaugs@gmail.com>">mattgaugs@gmail.com</a><br>
+
+    </div>
+    <script src="js/tota11y.min.js"></script>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <a href="https://www.linkedin.com/in/matt-gaughan-70243b214/" target="_blank">
+            <img src="img/iconLinkedIn.png" alt="LinkedIn"></a>
+        <!--Add link/img-->
+        <a href="https://github.com/MattGaughan2022" target="_blank"><img src="img/iconGithub.png" alt="GitHub"></a>
+    </footer>
+</body>
+
+</html>

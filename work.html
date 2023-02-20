@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matt Gaughan - Portfolio</title>
+    <link rel="icon" href="img/home.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header"> <!-- flexbox parent container class-->
+        <img src="img/logoMattGaughan.png" class="page-header__item site-logo" alt="personal logo">
+
+        <nav class="page-header__item">
+            <ul role="menubar" class="nav-list">
+                <li>
+                    <button onclick="location.href='index.html'" type="button__home"
+                        class="nav-list__item button">Home</button>
+                </li>
+                <li>
+                    <button onclick="location.href='about.html'" type="button__aboutMe"
+                        class="nav-list__item button">About
+                        Me</button>
+                </li>
+                <li>
+                    <button onclick="location.href='contact.html'" type="button__contact"
+                        class="nav-list__item button">Contact</button>
+                </li>
+                <li>
+                    <button onclick="location.href='work.html'" type="button__aboutMe"
+                        class="nav-list__item nav-list__item--active button">Work</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Work</h1>
+        <div class="grid">
+            <!-- Grid items will live here -->
+            <div class="grid__item">
+                <h2>Mobile web app</h2>
+                <p>
+                    Within this project, I was responsible for the frontend. It’s written in React.js. Additionally,
+                    I've created the HTML and CSS templates.
+                </p>
+                <a href="#">See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2>Webserver hosting</h2>
+                <p>
+                    Within this project, I was responsible for the frontend. It’s written in React.js. Additionally,
+                    I've created the HTML and CSS templates.
+                </p>
+                <a href="#">See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2>Remote backup server</h2>
+                <p>
+                    Within this project, I was responsible for the frontend. It’s written in React.js. Additionally,
+                    I've created the HTML and CSS templates.
+                </p>
+                <a href="#">See project on GitHub</a>
+            </div>
+            <div class="grid__item">
+                <h2>Robotic Service</h2>
+                <p>
+                    Within this project, I was responsible for the frontend. It’s written in React.js. Additionally,
+                    I've created the HTML and CSS templates.
+                </p>
+                <a href="#">See project on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <a href="https://www.linkedin.com/in/matt-gaughan-70243b214/" target="_blank">
+            <img src="img/iconLinkedIn.png" alt="LinkedIn"></a>
+        <!--Add link/img-->
+        <a href="https://github.com/MattGaughan2022" target="_blank"><img src="img/iconGithub.png" alt="GitHub"></a>
+    </footer>
+</body>
+
+</html>
